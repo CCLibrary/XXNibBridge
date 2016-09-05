@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |s|
   s.name         = "XXNibBridge"
-  s.version      = "2.3.1"
+  s.version      = "2.3.2"
   s.summary      = "XXNibBridge"
-  s.description  = "Bridge a nib file to another nib or storyboard"
-  s.homepage     = "https://github.com/sunnyxx/XXNibBridge"
+  s.description  = "Bridge a nib file to another nib or storyboard Fix Bug that can not used in other Framework"
+  s.homepage     = "https://github.com/CCLibrary/XXNibBridge"
   s.screenshots  = "https://camo.githubusercontent.com/79e8b3019e36b99f796966f8df118e18576ff781/687474703a2f2f7777322e73696e61696d672e636e2f6c617267652f353135333035383367773165687a676b6c696b34326a32306d3830676f3075612e6a7067"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "6.0"
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/sunnyxx/XXNibBridge.git", :tag => "2.3.1" }
+  s.source       = { :git => "https://github.com/CCLibrary/XXNibBridge.git", :tag => s.version.to_s }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "XXNibBridge/*.{h,m}"
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
