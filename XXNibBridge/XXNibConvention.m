@@ -37,8 +37,9 @@
 }
 
 + (UINib *)nib {
-    return [UINib nibWithNibName:self.nibid bundle:nil];
+    return [UINib nibWithNibName:self.nibid bundle:[NSBundle bundleForClass:[self class]]];
 }
+
 
 #pragma mark - XXDeprecatedNibConvention
 
